@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;  
+}
+body {
+    margin:0;
+    font-family: 'Audiowide', cursive;
+}
+
+.button {
+    background: white;
+    color: black;
+    font: inherit;
+    border: 1px #3c3380;
+    padding: 8px;
+    border-radius:8px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.button:hover,
+.button:active {
+   background-color: #3c3380;
+   transition: background-color 0.3s linear;
+}
+
+.main-header {
+    width: 100%;
+    background-color: #6c5ce7;
+    padding: 8px 16px;
+    position: fixed;
+    z-index: 1;
+    font-family: 'Audiowide', cursive;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.brand {
+    color: #2d3436;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+.fa-server {
+    color: white;
+    justify-content: space-around;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 140px); 
+    vertical-align: middle;
+    
+}
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+.main-nav__item {
+    display:inline-block;
+    margin: 0 16px;
+}
+.main-nav__item {
+    font-family: 'Audiowide', cursive;
+}
+.main-nav__item a {
+    font-weight: bold;
+    text-decoration:none;
+    color: #2d3436;
+    font-family: 'Audiowide', cursive;
+  
+    font-size: 16px;
+}
+
+
+.main-nav__item a:hover, 
+.main-nav__item a:active {
+    color: white;
+}
+
+.main-nav__item--cta a {
+    color: white;
+    background: #3c3380;
+    padding: 8px 16px;
+    border-radius: 8px;
+    -webkit-box-shadow: 3px 8px 5px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 8px 5px -4px rgba(0,0,0,0.75);
+    box-shadow: 3px 8px 5px -4px rgba(0,0,0,0.75);
+}
+
+.main-footer {
+    background: black;
+    padding: 32px;
+    
+}
+
+.main-footer__links {
+    list-style: none;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+.main-footer__link {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-footer__link a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Audiowide', cursive;
+}
